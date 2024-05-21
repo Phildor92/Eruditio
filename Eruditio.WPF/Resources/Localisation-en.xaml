@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=System.Runtime">
+    <system:String x:Key="New">New</system:String>
+    <system:String x:Key="Assignments">Assignments</system:String>
+    <system:String x:Key="Calendar">Calendar</system:String>
+    <system:String x:Key="Management">Management</system:String>
+</ResourceDictionary>
