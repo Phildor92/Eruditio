@@ -30,7 +30,6 @@ public class MenuBarViewModel : ReactiveObject
     {
         var app = Application.Current as App;
         app?.SetLanguageDictionary("en-UK");
-        
     }
 
     private static void ExecuteChangeDutch()

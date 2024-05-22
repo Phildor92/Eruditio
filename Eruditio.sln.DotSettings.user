@@ -3,4 +3,5 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::41CF827F-A5E2-44A5-9C35-000D9620F4E0::net8.0::Eruditio.Test.AssignmentOrganiser.AssignmentManagerTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=nederlands/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

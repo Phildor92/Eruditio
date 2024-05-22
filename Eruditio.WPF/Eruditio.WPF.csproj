@@ -19,4 +19,8 @@
       <PackageReference Include="ReactiveUI.WPF" Version="20.1.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Eruditio.Lib\Eruditio.Lib.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -1,0 +1,51 @@
+﻿<reactiveUi:ReactiveUserControl x:TypeArguments="home:HomeViewModel" x:Class="Eruditio.WPF.UserControls.Home.HomeView"
+                                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                                xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                                xmlns:menuBar="clr-namespace:Eruditio.WPF.UserControls.MenuBar"
+                                xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+                                xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+                                xmlns:reactiveUi="http://reactiveui.net"
+                                xmlns:home="clr-namespace:Eruditio.WPF.UserControls.Home"
+                                mc:Ignorable="d"
+                                d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <menuBar:MenuBarView/>
+        <TextBlock Grid.Row="1" Name="PathTextBlock" Margin="10"/>
+        <WrapPanel  Grid.Row="2">
+            <mah:Tile Title="{DynamicResource Assignments}"
+                      Margin="3" Name="AssignmentsTile"
+                      mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.ThemeForeground}"
+                      Background="{DynamicResource AssignmentColour}"
+                      HorizontalTitleAlignment="Left">
+                <iconPacks:PackIconMaterialDesign Width="40"
+                                                  Height="40"
+                                                  Kind="Assignment" />
+            </mah:Tile>
+            <mah:Tile Title="{DynamicResource Calendar}"
+                      Margin="3" Name="CalendarTile"
+                      mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.ThemeForeground}"
+                      Background="{DynamicResource CalendarColour}"
+                      HorizontalTitleAlignment="Left">
+                <iconPacks:PackIconModern Width="40"
+                                          Height="40"
+                                          Kind="Calendar" />
+            </mah:Tile>
+            <mah:Tile Title="{DynamicResource Management}"
+                      Margin="3" Name="ManagementTile"
+                      mah:ControlsHelper.MouseOverBorderBrush="{DynamicResource MahApps.Brushes.ThemeForeground}"
+                      Background="{DynamicResource ManagementColour}"
+                      HorizontalTitleAlignment="Left">
+                <iconPacks:PackIconModern Width="40"
+                                          Height="40"
+                                          Kind="ListGear" />
+            </mah:Tile>
+        </WrapPanel>
+    </Grid>
+</reactiveUi:ReactiveUserControl>

@@ -9,16 +9,16 @@
                                 d:DesignHeight="30" d:DesignWidth="300">
     <DockPanel>
         <Menu>
-            <MenuItem Header="File">
+            <MenuItem Header="{DynamicResource File}">
                 <MenuItem Header="Quit" Name="QuitMenuItem"></MenuItem>
             </MenuItem>
-            <MenuItem Header="Language">
+            <MenuItem Header="{DynamicResource Language}">
                 <MenuItem Header="English" Name="EnglishMenuItem"></MenuItem>
-                <MenuItem Header="Dutch" Name="DutchMenuItem"></MenuItem>
+                <MenuItem Header="Nederlands" Name="DutchMenuItem"></MenuItem>
             </MenuItem>
-            <MenuItem Header="Theme">
-                <MenuItem Header="Default" Name="DefaultMenuItem"></MenuItem>
-                <MenuItem Header="Variant" Name="VariantMenuItem"></MenuItem>
+            <MenuItem Header="{DynamicResource Theme}">
+                <MenuItem Header="{DynamicResource Default}" Name="DefaultMenuItem"></MenuItem>
+                <MenuItem Header="{DynamicResource Variant}" Name="VariantMenuItem"></MenuItem>
             </MenuItem>
         </Menu>
     </DockPanel>

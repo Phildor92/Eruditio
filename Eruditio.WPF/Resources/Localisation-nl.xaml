@@ -5,4 +5,9 @@
     <system:String x:Key="Assignments">Opdrachten</system:String>
     <system:String x:Key="Calendar">Kalender</system:String>
     <system:String x:Key="Management">Beheer</system:String>
+    <system:String x:Key="File">Bestand</system:String>
+    <system:String x:Key="Language">Taal</system:String>
+    <system:String x:Key="Theme">Thema</system:String>
+    <system:String x:Key="Default">Standaard</system:String>
+    <system:String x:Key="Variant">Variant</system:String>
 </ResourceDictionary>
